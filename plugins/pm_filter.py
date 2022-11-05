@@ -444,16 +444,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('My Group', url='https://t.me/technomindzchat')
             ],[
-            InlineKeyboardButton('🆘 𝐒𝐔𝐏𝐏𝐎𝐑𝐓', url='https://t.me/Technomindzchat')
+            InlineKeyboardButton('Support', url='https://t.me/rolexmain')
             ],[
-            InlineKeyboardButton('༺ 𝓓𝓔𝓥𝓔𝓛𝓞𝓟𝓔𝓡 ༻', url='https://t.me/TechnomindzYt'),
-            InlineKeyboardButton('𓂀 𝒮𝒪𝒰𝑅𝒞𝐸 𓂀', url='https://t.me/technomindzchat')
+            InlineKeyboardButton('Devloper', url='https://t.me/xovo_efx'),
+            InlineKeyboardButton('Source', url='https://t.me/xovo_efx')
             ],[      
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
-            ],[
-            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://www.youtube.com/c/TechnoMindz')
-        ]]
+            InlineKeyboardButton('Help', callback_data='help'),
+            InlineKeyboardButton('About', callback_data='about')
+            ]]
+            
+        
         reply_markup = InlineKeyboardMarkup(buttons)
         r=await query.message.reply_text('▣▣▢▢▢▢')
         a=await r.edit('▣▣▣▢▢▢')
@@ -477,7 +477,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙴𝚇𝚃𝚁𝙰', callback_data='extra')
         ], [
             ],[
-            InlineKeyboardButton('𝙷𝙾𝚆 𝚃𝙾 𝙳𝙴𝙿𝙻𝙾𝚈..?', url='https://youtu.be/mWWxKxNP8ls'),
+            InlineKeyboardButton('𝙷𝙾𝚆 𝚃𝙾 𝙳𝙴𝙿𝙻𝙾𝚈..?', url='https://t.me/rolexmain'),
             InlineKeyboardButton('🔮𝚂𝚃𝙰𝚃𝚄𝚂', callback_data='stats')
             ],[
             InlineKeyboardButton('⚚ 𝙱𝙰𝙲𝙺 ⚚', callback_data='start')
@@ -498,17 +498,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('𐂷 𐤠ƊƊ 𐒄Ƹ ƬⰙ ƳⰙꓴⱤ ƓⱤⰙꓴꝒ 𐂷', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('Add Me To Your Group', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('📢 𝐉𝐨𝐢𝐧 𝐌𝐚𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url='https://t.me/TmMainChannel')
+            InlineKeyboardButton('Join Main Channel', url='https://t.me/rolexmain')
             ],[
-            InlineKeyboardButton('♥ﮩ٨ـﮩ му♡gяσυρ ﮩـ٨ﮩ♥', url='https://t.me/technomindzchat')
+            InlineKeyboardButton('My Group', url='https://t.me/technomindzchat')
             ],[
-            InlineKeyboardButton('🆘 𝐒𝐔𝐏𝐏𝐎𝐑𝐓', url='https://t.me/Technomindzchat'),
-            InlineKeyboardButton('sᴇᴀʀᴄʜ🔎', switch_inline_query_current_chat='')
+            InlineKeyboardButton('Support', url='https://t.me/rolexmain'),
+            InlineKeyboardButton('search', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('༺ 𝓓𝓔𝓥𝓔𝓛𝓞𝓟𝓔𝓡 ༻', url='https://t.me/TechnomindzYt'),
-            InlineKeyboardButton('𓂀 𝒮𝒪𝒰𝑅𝒞𝐸 𓂀', url='https://t.me/technomindzchat')
+            InlineKeyboardButton('Devloper', url='https://t.me/xovo_efx'),
+            InlineKeyboardButton('Source', url='https://t.me/xovo_efx')
             ],[
             InlineKeyboardButton('🏠𝐇𝐎𝐌𝐄', callback_data='start'),
             InlineKeyboardButton('❌𝙲𝙻𝙾𝚂𝙴❌', callback_data='close_data')
