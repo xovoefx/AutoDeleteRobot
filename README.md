@@ -39,7 +39,7 @@
 
 # Deploy to railway 
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/9RfeHF?referralCode=dsdSeQ)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/uf0il9?referralCode=Duw4MO)
 
 ### Required Variables
   
