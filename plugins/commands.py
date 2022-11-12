@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton(' Updates', url='https://t.me/Tmmainchannel')
+                InlineKeyboardButton(' Updates', url='https://t.me/rolexmain')
             ],
             [
                 InlineKeyboardButton('Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -44,15 +44,15 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('Add Me To Your Group', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('Join Main Channel', url='https://t.me/TmMainChannel')
+            InlineKeyboardButton('Join Main Channel', url='https://t.me/rolexmain')
             ],[
-            InlineKeyboardButton('My Group', url='https://t.me/technomindzchat')
+            InlineKeyboardButton('My Group', url='https://t.me/rolexmain')
             ],[
-            InlineKeyboardButton('Support', url='https://t.me/Technomindzchat'),
+            InlineKeyboardButton('Support', url='https://t.me/rolexmain'),
             InlineKeyboardButton('Search', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('Devloper', url='https://t.me/TechnomindzYt'),
-            InlineKeyboardButton('Source', url='https://t.me/technomindzchat')
+            InlineKeyboardButton('Devloper', url='https://t.me/xovo_efx'),
+            InlineKeyboardButton('Source', url='https://t.me/rolexmain')
             ],[      
             InlineKeyboardButton('Help', callback_data='help'),
             InlineKeyboardButton('About', callback_data='about')
@@ -99,15 +99,15 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('Add Me To Your Group', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('Join Main Channel', url='https://t.me/TmMainChannel')
+            InlineKeyboardButton('Join Main Channel', url='https://t.me/rolexmain')
             ],[
-            InlineKeyboardButton('My Grouo', url='https://t.me/technomindzchat')
+            InlineKeyboardButton('My Group', url='https://t.me/rolexmain')
             ],[
-            InlineKeyboardButton('Support', url='https://t.me/Technomindzchat'),
+            InlineKeyboardButton('Support', url='https://t.me/rolexmain'),
             InlineKeyboardButton('Search', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('Devloper', url='https://t.me/TechnomindzYt'),
-            InlineKeyboardButton('Source', url='https://t.me/technomindzchat')
+            InlineKeyboardButton('Devloper', url='https://t.me/xovo_efx'),
+            InlineKeyboardButton('Source', url='https://t.me/rolexmain')
             ],[      
             InlineKeyboardButton('Help', callback_data='help'),
             InlineKeyboardButton('About', callback_data='about')
@@ -411,7 +411,7 @@ async def delete_all_index_confirm(bot, message):
 @Client.on_message(filters.private & filters.text & ~filters.regex("^/"))
 async def msg_handler(c, m):
     await m.reply_text(
-        "𓂀 𝕄𝕪 𝕤𝕖𝕣𝕧𝕚𝕔𝕖 𝕀𝕤 𝕊𝕥𝕠𝕡𝕡𝕖𝕕 𝕋𝕙𝕒𝕟𝕜𝕤 𝔽𝕠𝕣 ℝ𝕖𝕞𝕖𝕞𝕓𝕖𝕣𝕚𝕟𝕘 𝕄𝕖 ❤️‍🔥 𓂀\n𝐈𝐟 𝐲𝐨𝐮 𝐧𝐞𝐞𝐝 𝐭𝐨 𝐜𝐡𝐢𝐭 𝐜𝐡𝐚𝐭 𝐨𝐫 𝐫𝐞𝐩𝐨𝐫𝐭 𝐚𝐧𝐲 𝐛𝐮𝐠𝐬 𝐲𝐨𝐮 𝐚𝐫𝐞 𝐟𝐫𝐞𝐞 𝐭𝐨 𝐜𝐡𝐚𝐭 𝐡𝐞𝐫𝐞 👉@TechnoMindzChat\n\n𝐓𝐡𝐚𝐧𝐤𝐬 𝐅𝐨𝐫 𝐘𝐨𝐮𝐫 𝐂𝐨𝐨𝐩𝐞𝐫𝐚𝐭𝐢𝐨𝐧✨\n\n♥️ 𝗧𝗲𝗮𝗺 ➜ @TmMainChannel"
+        "𓂀 𝕄𝕪 𝕤𝕖𝕣𝕧𝕚𝕔𝕖 𝕀𝕤 𝕊𝕥𝕠𝕡𝕡𝕖𝕕 𝕋𝕙𝕒𝕟𝕜𝕤 𝔽𝕠𝕣 ℝ𝕖𝕞𝕖𝕞𝕓𝕖𝕣𝕚𝕟𝕘 𝕄𝕖 ❤️‍🔥 𓂀\n𝐈𝐟 𝐲𝐨𝐮 𝐧𝐞𝐞𝐝 𝐭𝐨 𝐜𝐡𝐢𝐭 𝐜𝐡𝐚𝐭 𝐨𝐫 𝐫𝐞𝐩𝐨𝐫𝐭 𝐚𝐧𝐲 𝐛𝐮𝐠𝐬 𝐲𝐨𝐮 𝐚𝐫𝐞 𝐟𝐫𝐞𝐞 𝐭𝐨 𝐜𝐡𝐚𝐭 𝐡𝐞𝐫𝐞 👉@rolexmain\n\n𝐓𝐡𝐚𝐧𝐤𝐬 𝐅𝐨𝐫 𝐘𝐨𝐮𝐫 𝐂𝐨𝐨𝐩𝐞𝐫𝐚𝐭𝐢𝐨𝐧✨\n\n♥️ 𝗧𝗲𝗮𝗺 ➜ @TmMainChannel"
     )
 
 
