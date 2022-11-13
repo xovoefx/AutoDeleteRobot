@@ -438,19 +438,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('Add Me To Your Group', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ yᴏᴜʀ ɢʀᴏᴜᴏ 🥺', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('Join Main Channel', url='https://t.me/rolexmain')
+            InlineKeyboardButton('ᴊᴏɪɴ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/rolexmain')
             ],[
-            InlineKeyboardButton('My Group', url='https://t.me/rolexmain')
+            InlineKeyboardButton('ᴍy ɢʀᴏᴜᴩ', url='https://t.me/rolexmain')
             ],[
-            InlineKeyboardButton('Support', url='https://t.me/rolexmain')
+            InlineKeyboardButton('ꜱᴜᴩᴩᴏʀᴛ', url='https://t.me/rolexmain')
             ],[
-            InlineKeyboardButton('Devloper', url='https://t.me/xovo_efx'),
-            InlineKeyboardButton('Source', url='https://t.me/rolexmain')
+            InlineKeyboardButton('🥀ᴍᴀɪɴᴛᴀɪɴᴇʀ🥀', url='https://t.me/xovo_efx'),
+            InlineKeyboardButton('🥺ꜱᴏᴜʀᴄᴇ🥺', url='https://t.me/rolexmain')
             ],[      
-            InlineKeyboardButton('Help', callback_data='help'),
-            InlineKeyboardButton('About', callback_data='about')
+            InlineKeyboardButton('ʜᴇʟᴩ', callback_data='help'),
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
             ]]
             
         
@@ -470,17 +470,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer('🏠Home...')
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('𝙼𝙰𝙽𝚄𝙴𝙻 𝙵𝙸𝙻𝚃𝙴𝚁', callback_data='manuelfilter'),
-            InlineKeyboardButton('𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁', callback_data='autofilter')
+            InlineKeyboardButton('ᴍᴀɴᴜᴇʟ ꜰɪʟᴛᴇʀ', callback_data='manuelfilter'),
+            InlineKeyboardButton('ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ', callback_data='autofilter')
         ], [
-            InlineKeyboardButton('𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙸𝙾𝙽𝚂', callback_data='coct'),
-            InlineKeyboardButton('𝙴𝚇𝚃𝚁𝙰', callback_data='extra')
+            InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛɪᴏɴꜱ', callback_data='coct'),
+            InlineKeyboardButton('ᴇxᴛʀᴀ', callback_data='extra')
         ], [
             ],[
-            InlineKeyboardButton('𝙷𝙾𝚆 𝚃𝙾 𝙳𝙴𝙿𝙻𝙾𝚈..?', url='https://t.me/rolexmain'),
-            InlineKeyboardButton('🔮𝚂𝚃𝙰𝚃𝚄𝚂', callback_data='stats')
+            InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴅᴇᴩʟᴏy..?', url='https://t.me/rolexmain'),
+            InlineKeyboardButton('🔮ꜱᴛᴀᴛᴜꜱ', callback_data='stats')
             ],[
-            InlineKeyboardButton('⚚ 𝙱𝙰𝙲𝙺 ⚚', callback_data='start')
+            InlineKeyboardButton('⚚ ʙᴀᴄᴋ ⚚', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         r=await query.message.reply_text('▣▣▢▢▢▢')
@@ -498,20 +498,20 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('Add Me To Your Group', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ yᴏᴜʀ ɢʀᴏᴜᴩ 🥺', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('Join Main Channel', url='https://t.me/rolexmain')
+            InlineKeyboardButton('ᴊᴏɪɴ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/rolexmain')
             ],[
-            InlineKeyboardButton('My Group', url='https://t.me/rolexmain')
+            InlineKeyboardButton('ᴍy ɢʀᴏᴜᴩ', url='https://t.me/rolexmain')
             ],[
-            InlineKeyboardButton('Support', url='https://t.me/rolexmain'),
-            InlineKeyboardButton('search', switch_inline_query_current_chat='')
+            InlineKeyboardButton('ꜱᴜᴩᴩᴏʀᴛ', url='https://t.me/rolexmain'),
+            InlineKeyboardButton('ꜱᴇᴀʀᴄʜ🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('Devloper', url='https://t.me/xovo_efx'),
-            InlineKeyboardButton('Source', url='https://t.me/rolexmain')
+            InlineKeyboardButton('🥀ᴍᴀɪɴᴛᴀɪɴᴇʀ🥀', url='https://t.me/xovo_efx'),
+            InlineKeyboardButton('🥺Source🥺', url='https://t.me/rolexmain')
             ],[
-            InlineKeyboardButton('🏠𝐇𝐎𝐌𝐄', callback_data='start'),
-            InlineKeyboardButton('❌𝙲𝙻𝙾𝚂𝙴❌', callback_data='close_data')
+            InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='start'),
+            InlineKeyboardButton('❌ᴄʟᴏꜱᴇ❌', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         r=await query.message.reply_text('▣▣▢▢▢▢')
@@ -826,11 +826,11 @@ async def auto_filter(client, msg, spoll=False):
         )
 
     btn.insert(0, [
-        InlineKeyboardButton("𓂀𝕄𝕆𝕍𝕀𝔼𝕊𓂀", url="https://t.me/rolexmain"),
+        InlineKeyboardButton("ᴍᴏᴠɪᴇꜱ", url="https://t.me/rolexmain"),
         InlineKeyboardButton("彡ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ]彡", url="https://t.me/rolexmain")
     ])
     btn.insert(0, [
-        InlineKeyboardButton("🤖𓂀ℍ𝕆𝕎 𝕋𝕆 𝔻𝕆𝕎ℕ𝕃𝕆𝔸𝔻𓂀🤖", url="https://t.me/rolexmain")
+        InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ", url="https://t.me/rolexmain")
     ])
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
