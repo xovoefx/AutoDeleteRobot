@@ -31,7 +31,7 @@ This module only works for my admins
 - <a href=https://t.me/rolexmain><b>MIDNIGHT MOVIES</b></a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
     
-- Filter is the feature were users can set automated replies for a particular keyword and 𝐓𝐄𝐂𝐇𝐍𝐎 𝐌𝐈𝐍𝐃𝐙  will respond whenever a keyword is found the message
+- Filter is the feature were users can set automated replies for a particular keyword and MIDNIGHT MOVIES will respond whenever a keyword is found the message
 <b>NOTE:</b>
 1. 𝚅𝚎𝚗𝚘𝚖 should have admin privillage.
 2. only admins can add filters in a chat.
@@ -48,7 +48,7 @@ This module only works for my admins
 2. 𝚅𝚎𝚗𝚘𝚖 supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/tmmainchannel)</code>
+<code>[Button Text](buttonurl:https://t.me/midnightmoviesofficial)</code>
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
     AUTOFILTER_TXT = """<b>𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁 𝙾𝙽/𝙾𝙵𝙵 𝙼𝙾𝙳𝚄𝙻𝙴..</b>
@@ -71,7 +71,7 @@ This module only works for my admins
 • /connections - <code>list all your connections</code>"""
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 <b>NOTE:</b>
-these are the extra features of Techno Mindz
+these are the extra features of venom
 <b>Commands and Usage:</b>
 • /id - <code>get id of a specifed user.</code>
 • /info  - <code>get information about a user.</code>
