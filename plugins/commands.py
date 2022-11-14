@@ -42,16 +42,16 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('Add Me To Your Group', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ yᴏᴜʀ ɢʀᴏᴜᴩ 🥺', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('Join Main Channel', url='https://t.me/rolexmain')
+            InlineKeyboardButton('ᴊᴏɪɴ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/rolexmain')
             ],[
-            InlineKeyboardButton('My Group', url='https://t.me/rolexmain')
+            InlineKeyboardButton('ᴍy ɢʀᴏᴜᴩ', url='https://t.me/rolexmain')
             ],[
-            InlineKeyboardButton('Support', url='https://t.me/rolexmain'),
-            InlineKeyboardButton('Search', switch_inline_query_current_chat='')
+            InlineKeyboardButton('ꜱᴜᴩᴩᴏʀᴛ', url='https://t.me/rolexmain'),
+            InlineKeyboardButton('ꜱᴇᴀʀᴄʜ🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('Devloper', url='https://t.me/xovo_efx'),
+            InlineKeyboardButton('🥀ᴍᴀɪɴᴛᴀɪɴᴇʀ🥀', url='https://t.me/xovo_efx'),
             InlineKeyboardButton('Source', url='https://t.me/rolexmain')
             ],[      
             InlineKeyboardButton('Help', callback_data='help'),
@@ -97,20 +97,20 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('Add Me To Your Group', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ yᴏᴜʀ ɢʀᴏᴜᴩ 🥺', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('Join Main Channel', url='https://t.me/rolexmain')
+            InlineKeyboardButton('ᴊᴏɪɴ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/rolexmain')
             ],[
-            InlineKeyboardButton('My Group', url='https://t.me/rolexmain')
+            InlineKeyboardButton('ᴍy ɢʀᴏᴜᴩ', url='https://t.me/rolexmain')
             ],[
-            InlineKeyboardButton('Support', url='https://t.me/rolexmain'),
-            InlineKeyboardButton('Search', switch_inline_query_current_chat='')
+            InlineKeyboardButton('ꜱᴜᴩᴩᴏʀᴛ', url='https://t.me/rolexmain'),
+            InlineKeyboardButton('ꜱᴇᴀʀᴄʜ 🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('Devloper', url='https://t.me/xovo_efx'),
-            InlineKeyboardButton('Source', url='https://t.me/rolexmain')
+            InlineKeyboardButton('🥀ᴍᴀɪɴᴛᴀɪɴᴇʀ🥀', url='https://t.me/xovo_efx'),
+            InlineKeyboardButton('🥺ꜱᴏᴜʀᴄᴇ🥺', url='https://t.me/rolexmain')
             ],[      
-            InlineKeyboardButton('Help', callback_data='help'),
-            InlineKeyboardButton('About', callback_data='about')
+            InlineKeyboardButton('ʜᴇʟᴩ', callback_data='help'),
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
            
             
