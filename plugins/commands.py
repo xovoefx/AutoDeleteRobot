@@ -52,10 +52,10 @@ async def start(client, message):
             InlineKeyboardButton('ꜱᴇᴀʀᴄʜ🔎', switch_inline_query_current_chat='')
             ],[
             InlineKeyboardButton('🥀ᴍᴀɪɴᴛᴀɪɴᴇʀ🥀', url='https://t.me/xovo_efx'),
-            InlineKeyboardButton('Source', url='https://t.me/rolexmain')
+            InlineKeyboardButton('🥺ꜱᴏᴜʀᴄᴇ🥺', url='https://t.me/rolexmain')
             ],[      
-            InlineKeyboardButton('Help', callback_data='help'),
-            InlineKeyboardButton('About', callback_data='about')
+            InlineKeyboardButton('ʜᴇʟᴩ', callback_data='help'),
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
 
 
         ]]
