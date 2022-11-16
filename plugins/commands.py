@@ -288,7 +288,7 @@ async def start(client, message):
     await client.send_video(
                 chat_id=message.chat.id,
                 video="https://telegra.ph/file/7c13fa72f06ba3ab61371.mp4",
-                caption=f"⚙️ <strong>Oh Oh The File Is Deleted</strong> 🗑️\n\nDidn't Forward To Anyone ?\n\nNo Problem Just Ask Again Here @TechnoMoviesCollection\n\n@TmMainChannel",
+                caption=f"⚙️ <strong>Oh Oh The File Is Deleted</strong> 🗑️\n\nDidn't Forward To Anyone ?\n\nNo Problem Just Ask Again",
                 reply_to_message_id=message.id
             )
     
@@ -411,7 +411,7 @@ async def delete_all_index_confirm(bot, message):
 @Client.on_message(filters.private & filters.text & ~filters.regex("^/"))
 async def msg_handler(c, m):
     await m.reply_text(
-        "𓂀 𝕄𝕪 𝕤𝕖𝕣𝕧𝕚𝕔𝕖 𝕀𝕤 𝕊𝕥𝕠𝕡𝕡𝕖𝕕 𝕋𝕙𝕒𝕟𝕜𝕤 𝔽𝕠𝕣 ℝ𝕖𝕞𝕖𝕞𝕓𝕖𝕣𝕚𝕟𝕘 𝕄𝕖 ❤️‍🔥 𓂀\n𝐈𝐟 𝐲𝐨𝐮 𝐧𝐞𝐞𝐝 𝐭𝐨 𝐜𝐡𝐢𝐭 𝐜𝐡𝐚𝐭 𝐨𝐫 𝐫𝐞𝐩𝐨𝐫𝐭 𝐚𝐧𝐲 𝐛𝐮𝐠𝐬 𝐲𝐨𝐮 𝐚𝐫𝐞 𝐟𝐫𝐞𝐞 𝐭𝐨 𝐜𝐡𝐚𝐭 𝐡𝐞𝐫𝐞 👉@rolexmain\n\n𝐓𝐡𝐚𝐧𝐤𝐬 𝐅𝐨𝐫 𝐘𝐨𝐮𝐫 𝐂𝐨𝐨𝐩𝐞𝐫𝐚𝐭𝐢𝐨𝐧✨\n\n♥️ 𝗧𝗲𝗮𝗺 ➜ @TmMainChannel"
+        "ᴩʟᴇᴀꜱᴇ ꜱᴇᴀʀᴄʜ yᴏᴜʀ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ᴏɴ ꜱᴇᴀʀᴄʜ ʙᴜᴛᴛᴏɴ ɴᴏᴛ ʜᴇʀᴇ............🥺"
     )
 
 
