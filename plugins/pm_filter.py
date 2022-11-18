@@ -109,11 +109,11 @@ async def next_page(bot, query):
         )
     btn.insert(0,
             [
-                InlineKeyboardButton("彡[ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ]彡", url="https://t.me/rolexmain")
+                InlineKeyboardButton("彡[ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ]彡", url="https://t.me/rolexmainfhgedhgs")
             ])
 
     btn.insert(0, [
-        InlineKeyboardButton("𝙷𝚘𝚠 𝚃𝚘 𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍", url="https://t.me/rolexmain")
+        InlineKeyboardButton("𝙷𝚘𝚠 𝚃𝚘 𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍", url="https://t.me/venombothelp")
     ])
     try:
         await query.edit_message_reply_markup(
@@ -144,7 +144,7 @@ async def advantage_spoll_choker(bot, query):
             await auto_filter(bot, query, k)
         else:
             one_button = InlineKeyboardMarkup([[InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/xovo_efx"), InlineKeyboardButton("🔎ɢᴏᴏɢʟᴇ🔎", url="https://www.google.com/")]])
-            k = await msg.reply_video(video="https://telegra.ph//file/d90256b1575c7aaadccc5.mp4", caption="Hey, ꜱᴏᴏʀy ɴᴏ ᴍᴏᴠɪᴇꜱ ᴏʀ ꜱᴇʀɪᴇꜱ ꜰᴏᴜɴᴅ ɪɴ ᴍy ᴅᴀᴛᴀʙᴀꜱᴇ \n\n𝙿𝚘𝚜𝚜𝚒𝚋𝚕𝚎 𝙲𝚊𝚞𝚜𝚎𝚜 : 🤔\n\n⭕️ ɴᴏᴛ yᴇᴛ ʀᴇʟᴇᴀꜱᴇᴅ\n⭕️ ɪɴᴄᴏʀʀᴇᴄᴛ ꜱᴩᴇʟʟɪɴɢ\n⭕ ɴᴏᴛ ᴜᴩʟᴏᴀᴅᴇᴅ ʙy ᴏᴡɴᴇʀ\n\n👉Contact To My Owner👇", reply_markup = one_button)
+            k = await msg.reply_video(video="https://telegra.ph//file/d90256b1575c7aaadccc5.mp4", caption="Hey, ꜱᴏᴏʀy ɴᴏ ᴍᴏᴠɪᴇꜱ ᴏʀ ꜱᴇʀɪᴇꜱ ꜰᴏᴜɴᴅ ɪɴ ᴍy ᴅᴀᴛᴀʙᴀꜱᴇ \n\n𝙿𝚘𝚜𝚜𝚒𝚋𝚕𝚎 𝙲𝚊𝚞𝚜𝚎𝚜 : 🤔\n\n⭕️ ɴᴏᴛ yᴇᴛ ʀᴇʟᴇᴀꜱᴇᴅ\n⭕️ ɪɴᴄᴏʀʀᴇᴄᴛ ꜱᴩᴇʟʟɪɴɢ\n⭕ ɴᴏᴛ ᴜᴩʟᴏᴀᴅᴇᴅ ʙy ᴏᴡɴᴇʀ.", reply_markup = one_button)
             await asyncio.sleep(20)
             await k.delete()
             await msg.delete()
@@ -361,10 +361,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{files.file_name}"
         buttons = [
             [
-                InlineKeyboardButton('彡[ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ]彡', url='https://t.me/rolexmain')
+                InlineKeyboardButton('彡[ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ]彡', url='https://t.me/rolexmaifghcfbk3n')
             ],
             [
-                InlineKeyboardButton('How To Download', url=f'https://t.me/rolexmain')
+                InlineKeyboardButton('How To Download', url=f'https://t.me/venombothelp')
             ]
             ]
 
@@ -388,7 +388,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 await client.send_video(
                             chat_id=message.chat.id,
                             video="https://telegra.ph/file/7c13fa72f06ba3ab61371.mp4",
-                            caption=f"⚙️ <strong>Oh Oh The File Is Deleted</strong> 🗑️\n\nDidn't Forward To Anyone ?\n\nNo Problem Just Ask Again Here @rolexmain\n\n@xovo_efx",
+                            caption=f"⚙️ <strong>Oh Oh The File Is Deleted</strong> 🗑️\n\nDidn't Forward To Anyone ?\n\nNo Problem Just Ask Again Here\n\n@xovo_efx",
                             reply_to_message_id=message.id
                         )
         except UserIsBlocked:
@@ -421,10 +421,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{title}"
         buttons = [
             [
-                InlineKeyboardButton('彡[ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ]彡', url='https://t.me/rolexmain')
+                InlineKeyboardButton('彡[ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ]彡', url='https://t.me/roleghst620')
             ],
             [
-                InlineKeyboardButton('How To Download', url=f'https://t.me/rolexmain')
+                InlineKeyboardButton('How To Download', url=f'https://t.me/venombothevenombothelp')
             ]
             ]
         await query.answer()
@@ -440,14 +440,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ yᴏᴜʀ ɢʀᴏᴜᴩ 🥺', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('ᴊᴏɪɴ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/rolexmain')
+            InlineKeyboardButton('ᴊᴏɪɴ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/venombothelp')
             ],[
-            InlineKeyboardButton('ᴍy ɢʀᴏᴜᴩ', url='https://t.me/rolexmain')
+            InlineKeyboardButton('ᴍy ɢʀᴏᴜᴩ', url='https://t.me/rolexmdfhgssggain')
             ],[
-            InlineKeyboardButton('ꜱᴜᴩᴩᴏʀᴛ', url='https://t.me/rolexmain')
+            InlineKeyboardButton('ꜱᴜᴩᴩᴏʀᴛ', url='https://t.me/venombothelp')
             ],[
             InlineKeyboardButton('🥀ᴍᴀɪɴᴛᴀɪɴᴇʀ🥀', url='https://t.me/xovo_efx'),
-            InlineKeyboardButton('🥺ꜱᴏᴜʀᴄᴇ🥺', url='https://t.me/rolexmain')
+            InlineKeyboardButton('🥺ꜱᴏᴜʀᴄᴇ🥺', url='https://t.me/biriyanikadaofficial')
             ],[      
             InlineKeyboardButton('ʜᴇʟᴩ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
@@ -477,7 +477,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴇxᴛʀᴀ', callback_data='extra')
         ], [
             ],[
-            InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴅᴇᴩʟᴏy..?', url='https://t.me/rolexmain'),
+            InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴅᴇᴩʟᴏy..?', url='https://t.me/biriyanikadaofficial'),
             InlineKeyboardButton('🔮ꜱᴛᴀᴛᴜꜱ', callback_data='stats')
             ],[
             InlineKeyboardButton('⚚ ʙᴀᴄᴋ ⚚', callback_data='start')
@@ -500,15 +500,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ yᴏᴜʀ ɢʀᴏᴜᴩ 🥺', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('ᴊᴏɪɴ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/rolexmain')
+            InlineKeyboardButton('ᴊᴏɪɴ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/venombothelp')
             ],[
             InlineKeyboardButton('ᴍy ɢʀᴏᴜᴩ', url='https://t.me/rolexmain')
             ],[
-            InlineKeyboardButton('ꜱᴜᴩᴩᴏʀᴛ', url='https://t.me/rolexmain'),
+            InlineKeyboardButton('ꜱᴜᴩᴩᴏʀᴛ', url='https://t.me/venombothelp'),
             InlineKeyboardButton('ꜱᴇᴀʀᴄʜ🔎', switch_inline_query_current_chat='')
             ],[
             InlineKeyboardButton('🥀ᴍᴀɪɴᴛᴀɪɴᴇʀ🥀', url='https://t.me/xovo_efx'),
-            InlineKeyboardButton('🥺Source🥺', url='https://t.me/rolexmain')
+            InlineKeyboardButton('🥺Source🥺', url='https://t.me/biriyanikadaofficial')
             ],[
             InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('❌ᴄʟᴏꜱᴇ❌', callback_data='close_data')
@@ -826,11 +826,11 @@ async def auto_filter(client, msg, spoll=False):
         )
 
     btn.insert(0, [
-        InlineKeyboardButton("ᴍᴏᴠɪᴇꜱ", url="https://t.me/rolexmain"),
-        InlineKeyboardButton("彡ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ]彡", url="https://t.me/rolexmain")
+        InlineKeyboardButton("ᴍᴏᴠɪᴇꜱ", url="https://t.me/venombothelp"),
+        InlineKeyboardButton("彡ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ]彡", url="https://t.me/rolexmrolex")
     ])
     btn.insert(0, [
-        InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ", url="https://t.me/rolexmain")
+        InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ", url="https://t.me/venombothelp")
     ])
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
@@ -935,7 +935,7 @@ async def advantage_spell_chok(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist))  # removing duplicates
     if not movielist:
-        one_button = InlineKeyboardMarkup([[InlineKeyboardButton("🥲 𝗢𝗪𝗡𝗘𝗥 🔥", url="https://t.me/xovo_efx"), InlineKeyboardButton("🤕 𝗚𝗢𝗢𝗚𝗟𝗘 🤒", url="https://www.google.com/")]])
+        one_button = InlineKeyboardMarkup([[InlineKeyboardButton("🥺 ᴏᴡɴᴇʀ 🔥", url="https://t.me/xovo_efx"), InlineKeyboardButton("🤕 ɢᴏᴏɢʟᴇ 🤒", url="https://www.google.com/")]])
         k = await msg.reply_video(video="https://telegra.ph//file/d90256b1575c7aaadccc5.mp4", caption="Hey, 𝐒𝐨𝐫𝐫𝐲, 𝐍𝐨 𝐌𝐨𝐯𝐢𝐞/𝐒𝐞𝐫𝐢𝐞𝐬 𝐑𝐞𝐥𝐚𝐭𝐞𝐝 𝐓𝐨 𝐓𝐡𝐞 𝐆𝐢𝐯𝐞𝐧 𝐖𝐨𝐫𝐝 𝐖𝐚𝐬 𝐅𝐨𝐮𝐧𝐝 🥺\n\n𝙿𝚘𝚜𝚜𝚒𝚋𝚕𝚎 𝙲𝚊𝚞𝚜𝚎𝚜 : 🤔\n\n⭕️ 𝐍𝐨𝐭 𝐑𝐞𝐥𝐞𝐚𝐬𝐞𝐝 𝐘𝐞𝐭\n⭕️ 𝐈𝐧𝐜𝐨𝐫𝐫𝐞𝐜𝐭 𝐒𝐩𝐞𝐥𝐥𝐢𝐧𝐠\n⭕ 𝐍𝐨𝐭 𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐲 𝐎𝐰𝐧𝐞𝐫\n\n👉Contact To My Owner👇", reply_markup = one_button)
         await asyncio.sleep(20)
         await k.delete()
@@ -949,7 +949,7 @@ async def advantage_spell_chok(msg):
         )
     ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
-    one_button = InlineKeyboardMarkup([[InlineKeyboardButton("🥲 𝗢𝗪𝗡𝗘𝗥 🔥", url="https://t.me/xovo_efx"), InlineKeyboardButton("🤕 𝗚𝗢𝗢𝗚𝗟𝗘 🤒", url="https://www.google.com/")]])
+    one_button = InlineKeyboardMarkup([[InlineKeyboardButton("🥺 ᴏᴡɴᴇʀ 🔥", url="https://t.me/xovo_efx"), InlineKeyboardButton("🤕 ɢᴏᴏɢʟᴇ 🤒", url="https://www.google.com/")]])
     k = await msg.reply_video(video="https://telegra.ph//file/d90256b1575c7aaadccc5.mp4", caption="Hey, 𝐒𝐨𝐫𝐫𝐲, 𝐍𝐨 𝐌𝐨𝐯𝐢𝐞/𝐒𝐞𝐫𝐢𝐞𝐬 𝐑𝐞𝐥𝐚𝐭𝐞𝐝 𝐓𝐨 𝐓𝐡𝐞 𝐆𝐢𝐯𝐞𝐧 𝐖𝐨𝐫𝐝 𝐖𝐚𝐬 𝐅𝐨𝐮𝐧𝐝 🥺\n\n𝙿𝚘𝚜𝚜𝚒𝚋𝚕𝚎 𝙲𝚊𝚞𝚜𝚎𝚜 : 🤔\n\n⭕️ 𝐍𝐨𝐭 𝐑𝐞𝐥𝐞𝐚𝐬𝐞𝐝 𝐘𝐞𝐭\n⭕️ 𝐈𝐧𝐜𝐨𝐫𝐫𝐞𝐜𝐭 𝐒𝐩𝐞𝐥𝐥𝐢𝐧𝐠\n⭕ 𝐍𝐨𝐭 𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐲 𝐎𝐰𝐧𝐞𝐫\n\n👉Contact To My Owner👇", reply_markup = one_button)
     await asyncio.sleep(20)
     await k.delete()
