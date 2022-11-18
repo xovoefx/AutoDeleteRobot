@@ -44,15 +44,15 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ yᴏᴜʀ ɢʀᴏᴜᴩ 🥺', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('ᴊᴏɪɴ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/rolexmain')
+            InlineKeyboardButton('ᴊᴏɪɴ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/venombothelp')
             ],[
             InlineKeyboardButton('ᴍy ɢʀᴏᴜᴩ', url='https://t.me/rolexmain')
             ],[
-            InlineKeyboardButton('ꜱᴜᴩᴩᴏʀᴛ', url='https://t.me/rolexmain'),
+            InlineKeyboardButton('ꜱᴜᴩᴩᴏʀᴛ', url='https://t.me/venombothelp'),
             InlineKeyboardButton('ꜱᴇᴀʀᴄʜ🔎', switch_inline_query_current_chat='')
             ],[
             InlineKeyboardButton('🥀ᴍᴀɪɴᴛᴀɪɴᴇʀ🥀', url='https://t.me/xovo_efx'),
-            InlineKeyboardButton('🥺ꜱᴏᴜʀᴄᴇ🥺', url='https://t.me/rolexmain')
+            InlineKeyboardButton('🥺ꜱᴏᴜʀᴄᴇ🥺', url='https://t.me/biriyanikadaofficial')
             ],[      
             InlineKeyboardButton('ʜᴇʟᴩ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
@@ -99,15 +99,15 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ yᴏᴜʀ ɢʀᴏᴜᴩ 🥺', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('ᴊᴏɪɴ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/rolexmain')
+            InlineKeyboardButton('ᴊᴏɪɴ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/venombothelp')
             ],[
             InlineKeyboardButton('ᴍy ɢʀᴏᴜᴩ', url='https://t.me/rolexmain')
             ],[
-            InlineKeyboardButton('ꜱᴜᴩᴩᴏʀᴛ', url='https://t.me/rolexmain'),
+            InlineKeyboardButton('ꜱᴜᴩᴩᴏʀᴛ', url='https://t.me/venombothelp'),
             InlineKeyboardButton('ꜱᴇᴀʀᴄʜ 🔎', switch_inline_query_current_chat='')
             ],[
             InlineKeyboardButton('🥀ᴍᴀɪɴᴛᴀɪɴᴇʀ🥀', url='https://t.me/xovo_efx'),
-            InlineKeyboardButton('🥺ꜱᴏᴜʀᴄᴇ🥺', url='https://t.me/rolexmain')
+            InlineKeyboardButton('🥺ꜱᴏᴜʀᴄᴇ🥺', url='https://t.me/biriyanikadaofficial')
             ],[      
             InlineKeyboardButton('ʜᴇʟᴩ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
@@ -168,7 +168,7 @@ async def start(client, message):
                 await client.send_video(
                             chat_id=message.chat.id,
                             video="https://telegra.ph/file/7c13fa72f06ba3ab61371.mp4",
-                            caption=f"⚙️ <strong>Oh Oh The File Is Deleted</strong> 🗑️\n\nDidn't Forward To Anyone ?\n\nNo Problem Just Ask Again Here @TechnoMoviesCollection\n\n@TmMainChannel",
+                            caption=f"⚙️ <strong>Oh Oh The File Is Deleted</strong> 🗑️\n\nDidn't Forward To Anyone ?\n\nNo Problem Just Ask Again Here",
                             reply_to_message_id=message.id
                         )
                 
@@ -186,7 +186,7 @@ async def start(client, message):
                 await client.send_video(
                             chat_id=message.chat.id,
                             video="https://telegra.ph/file/7c13fa72f06ba3ab61371.mp4",
-                            caption=f"⚙️ <strong>Oh Oh The File Is Deleted</strong> 🗑️\n\nDidn't Forward To Anyone ?\n\nNo Problem Just Ask Again Here @TechnoMoviesCollection\n\n@TmMainChannel",
+                            caption=f"⚙️ <strong>Oh Oh The File Is Deleted</strong> 🗑️\n\nDidn't Forward To Anyone ?\n\nNo Problem Just Ask Again Here",
                             reply_to_message_id=message.id
                         )
             except Exception as e:
