@@ -14,7 +14,7 @@ I ᴡɪʟʟ ɢɪᴠᴇ ᴍᴏᴠɪᴇs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴩ ᴀɴᴅ �
 <b>✮ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: ᴍᴏɴɢᴏ-ᴅʙ</b>
 <b>✮ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: ʀᴀɪʟᴡᴀy</b>
 <b>✮ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: 𝚅1.0.43</b>
-<b>✮ 𝚄𝙿𝙳𝙰𝚃𝙴𝚂: <a href=https://t.me/rolexmain>ᴍɪᴅɴɪɢʜᴛ ᴍᴏᴠɪᴇꜱ</a></b>
+<b>✮ 𝚄𝙿𝙳𝙰𝚃𝙴𝚂: <a href=https://t.me/venombothelp>ᴍɪᴅɴɪɢʜᴛ ᴍᴏᴠɪᴇꜱ</a></b>
 
     ADMIN_TXT = """Help: <b>Admin mods</b>
 <b>NOTE:</b>
