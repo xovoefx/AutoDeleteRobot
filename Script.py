@@ -1,27 +1,30 @@
 class script(object):
-    START_TXT = """ʜᴇy {},
-ᴍy ɴᴀᴍᴇ ɪꜱ <a href=https://t.me/{}>{}</a>,
-ɪ ᴀᴍ ᴀ ᴀᴜᴛᴏғɪʟᴛᴇʀ + ᴍᴀɴᴜᴇʟғɪʟᴛᴇʀ ʙᴏᴛ.
-I ᴡɪʟʟ ɢɪᴠᴇ ᴍᴏᴠɪᴇs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴩ ᴀɴᴅ ᴍʏ ᴩᴍ!  \n\n ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙy:\n<a href=https://t.me/xovo_efx><b>xᴏᴠᴏ</b></a>"""
-HELP_TXT = """𝙷𝚎𝚢 {}
 
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
+    START_TXT = """𝙷𝙴𝙻𝙻𝙾 👋 {},
 
-    ABOUT_TXT = """<b>✮ 𝙼𝚈 𝙽𝙰𝙼𝙴: 𝚅𝚎𝚗𝚘𝚖</b>
+𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂 😉, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽.. 𝚃𝙷𝙴𝙽 𝚂𝙴𝙴 𝙼𝚈 𝙿𝙾𝚆𝙴𝚁𝚂 🦾\n\n𝐌𝐘 𝐂𝐑𝐄𝐀𝐓𝐎𝐑 👇👇👇\n<a href=https://t.me/Technomindzyt><b>༒☬𝓡𝓐𝓥𝓘𝓝𝓐𝓝𝓓𝓐𝓝☬༒</b></a>"""
 
-<b>✮ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/xovo_efx><b>𝚇𝙾𝚅𝙾</b></a>
+    HELP_TXT = """𝙷𝙴𝚈 {}
+
+𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
+
+    ABOUT_TXT = """<b>✮ 𝙼𝚈 𝙽𝙰𝙼𝙴: 𝐓𝐄𝐂𝐇𝐍𝐎 𝐌𝐈𝐍𝐃𝐙</b>
+
+<b>✮ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/Technomindzyt><b>꧁༒☬𝓡𝓐𝓥𝓘𝓝𝓐𝓝𝓓𝓐𝓝☬༒꧂</b></a>
 
 <b>✮ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</b>
 
-<b>✮ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 3</b>
+<b>✮ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹</b>
 
 <b>✮ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾-𝙳𝙱</b>
 
-<b>✮ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝚁𝙰𝙸𝙻𝚆𝙰𝚈</b>
+<b>✮ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄</b>
 
 <b>✮ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: 𝚅1.0.43</b>
 
-<b>✮ 𝚄𝙿𝙳𝙰𝚃𝙴𝚂: <a href=https://t.me/venombothelp>𝙱𝙾𝚃 𝚂𝚄𝙿𝙿𝙾𝚁𝚃</a></b>
+<b>✮ 𝚄𝙿𝙳𝙰𝚃𝙴𝚂: <a href=https://t.me/tmmainchannel>𝐓𝐄𝐂𝐇𝐍𝐎 𝐌𝐈𝐍𝐃𝐙</a></b>
+
+<b>✮ 𝚈𝙾𝚄𝚃𝚄𝙱𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻: <a href=https://www.youtube.com/c/TechnoMindz>𝐓𝐄𝐂𝐇𝐍𝐎 𝐌𝐈𝐍𝐃𝐙</a></b>"""
 
     ADMIN_TXT = """Help: <b>Admin mods</b>
 
@@ -55,17 +58,17 @@ This module only works for my admins
 
 <b>DEVS:</b>
 
-- <a href=https://t.me/rolexmain><b>MIDNIGHT MOVIES</b></a>"""
+- <a href=https://t.me/tmmainchannel><b>𝐓𝐄𝐂𝐇𝐍𝐎 𝐌𝐈𝐍𝐃𝐙</b></a>"""
 
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
     
 
-- Filter is the feature were users can set automated replies for a particular keyword and MIDNIGHT MOVIES will respond whenever a keyword is found the message
+- Filter is the feature were users can set automated replies for a particular keyword and 𝐓𝐄𝐂𝐇𝐍𝐎 𝐌𝐈𝐍𝐃𝐙  will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
 
-1. 𝚅𝚎𝚗𝚘𝚖 should have admin privillage.
+1. 𝐓𝐄𝐂𝐇𝐍𝐎 𝐌𝐈𝐍𝐃𝐙 should have admin privillage.
 
 2. only admins can add filters in a chat.
 
@@ -83,19 +86,19 @@ This module only works for my admins
 
     BUTTON_TXT = """Help: <b>Buttons</b>
 
--𝚅𝚎𝚗𝚘𝚖 Supports both url and alert inline buttons.
+-𝐓𝐄𝐂𝐇𝐍𝐎 𝐌𝐈𝐍𝐃𝐙  Supports both url and alert inline buttons.
 
 <b>NOTE:</b>
 
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
 
-2. 𝚅𝚎𝚗𝚘𝚖 supports buttons with any telegram media type.
+2. 𝐓𝐄𝐂𝐇𝐍𝐎 𝐌𝐈𝐍𝐃𝐙 supports buttons with any telegram media type.
 
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
 
-<code>[Button Text](buttonurl:https://t.me/midnightmoviesofficial)</code>
+<code>[Button Text](buttonurl:https://t.me/tmmainchannel)</code>
 
 <b>Alert buttons:</b>
 
@@ -115,7 +118,7 @@ This module only works for my admins
 
 <b>›› /get_template - 𝙶𝙴𝚃 𝙲𝚄𝚁𝚁𝙴𝙽𝚃 𝙸𝙼𝙳𝙱 𝚃𝙴𝙼𝙿𝙻𝙰𝚃𝙴 𝙾𝙵 𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁.</b>
 
-<b>𝙲𝚁𝙴𝙳𝙸𝚃𝚂 :- <a href=https://t.me/rolexmain>MIDNIGHT MOVIES</a></b>"""
+<b>𝙲𝚁𝙴𝙳𝙸𝚃𝚂 :- <a href=https://t.me/tmmainchannel>𝐓𝐄𝐂𝐇𝐍𝐎 𝐌𝐈𝐍𝐃𝐙</a></b>"""
 
     CONNECTION_TXT = """Help: <b>Connections</b>
 
@@ -141,7 +144,7 @@ This module only works for my admins
 
 <b>NOTE:</b>
 
-these are the extra features of venom
+these are the extra features of Techno Mindz
 
 <b>Commands and Usage:</b>
 
@@ -213,6 +216,6 @@ Name - {}
 
 
 
-
+    
 
     
