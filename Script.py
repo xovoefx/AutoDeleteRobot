@@ -2,15 +2,15 @@ class script(object):
 
     START_TXT = """ʜᴇy {},
 
-ᴍy ɴᴀɴᴇ ɪꜱ <a href=https://t.me/{}>{}</a>, ɪ ᴀᴍ ᴀᴜᴛᴏꜰɪʟᴛᴇʀ + ᴍᴀɴᴜᴇʟ ꜰɪʟᴛᴇʀ ʙᴏᴛ. ɪ ᴇɪʟʟ ɢɪᴠᴇ ᴍᴏᴠɪᴇꜱ ɪɴ yᴏᴜʀ ɢʀᴏᴜᴩ ᴀɴᴅ ᴍy ᴩᴍ!\n\nᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙy:\n<a href=https://t.me/xovo_efx><b>༒☬𝓡𝓐𝓥𝓘𝓝𝓐𝓝𝓓𝓐𝓝☬༒</b></a>"""
+ᴍy ɴᴀɴᴇ ɪꜱ <a href=https://t.me/{}>{}</a>, ɪ ᴀᴍ ᴀᴜᴛᴏꜰɪʟᴛᴇʀ + ᴍᴀɴᴜᴇʟ ꜰɪʟᴛᴇʀ ʙᴏᴛ. ɪ ᴇɪʟʟ ɢɪᴠᴇ ᴍᴏᴠɪᴇꜱ ɪɴ yᴏᴜʀ ɢʀᴏᴜᴩ ᴀɴᴅ ᴍy ᴩᴍ!\n\nᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙy:\n<a href=https://t.me/xovo_efx><b>xᴏᴠᴏ</b></a>"""
 
     HELP_TXT = """𝙷𝙴𝚈 {}
 
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
 
-    ABOUT_TXT = """<b>✮ 𝙼𝚈 𝙽𝙰𝙼𝙴: 𝐓𝐄𝐂𝐇𝐍𝐎 𝐌𝐈𝐍𝐃𝐙</b>
+    ABOUT_TXT = """<b>✮ 𝙼𝚈 𝙽𝙰𝙼𝙴: 𝚅𝙴𝙽𝙾𝙼</b>
 
-<b>✮ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/Technomindzyt><b>꧁༒☬𝓡𝓐𝓥𝓘𝓝𝓐𝓝𝓓𝓐𝓝☬༒꧂</b></a>
+<b>✮ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/xovo_efx><b>𝚇𝙾𝚅𝙾</b></a>
 
 <b>✮ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</b>
 
@@ -22,9 +22,9 @@ class script(object):
 
 <b>✮ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: 𝚅1.0.43</b>
 
-<b>✮ 𝚄𝙿𝙳𝙰𝚃𝙴𝚂: <a href=https://t.me/tmmainchannel>𝐓𝐄𝐂𝐇𝐍𝐎 𝐌𝐈𝐍𝐃𝐙</a></b>
+<b>✮ 𝚄𝙿𝙳𝙰𝚃𝙴𝚂: <a href=https://t.me/venombothelp>𝚂𝚄𝙿𝙿𝙾𝚁𝚃</a></b>
 
-<b>✮ 𝚈𝙾𝚄𝚃𝚄𝙱𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻: <a href=https://www.youtube.com/c/TechnoMindz>𝐓𝐄𝐂𝐇𝐍𝐎 𝐌𝐈𝐍𝐃𝐙</a></b>"""
+
 
     ADMIN_TXT = """Help: <b>Admin mods</b>
 
