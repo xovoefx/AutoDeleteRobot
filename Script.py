@@ -24,7 +24,7 @@ class script(object):
 
 <b>✮ 𝚄𝙿𝙳𝙰𝚃𝙴𝚂: <a href=https://t.me/venombothelp>𝚂𝚄𝙿𝙿𝙾𝚁𝚃</a></b>
 
-
+<b>✮ 𝚂𝙾𝚄𝚁𝙲𝙴: <a href=https://t.me/biriyanikadaofficial>𝚂𝙾𝚄𝚁𝙲𝙴</a></b>
 
     ADMIN_TXT = """Help: <b>Admin mods</b>
 
