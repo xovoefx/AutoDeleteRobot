@@ -2,7 +2,7 @@ class script(object):
 
     START_TXT = """ʜᴇy {},
 
-ᴍy ɴᴀɴᴇ ɪꜱ <a href=https://t.me/{}>{}</a>, ɪ ᴀᴍ ᴀᴜᴛᴏꜰɪʟᴛᴇʀ + ᴍᴀɴᴜᴇʟ ꜰɪʟᴛᴇʀ ʙᴏᴛ. ɪ ᴇɪʟʟ ɢɪᴠᴇ ᴍᴏᴠɪᴇꜱ ɪɴ yᴏᴜʀ ɢʀᴏᴜᴩ ᴀɴᴅ ᴍy ᴩᴍ!\n\nᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙy:\n<a href=https://t.me/xovo_efx><b>xᴏᴠᴏ</b></a>"""
+ᴍy ɴᴀɴᴇ ɪꜱ <a href=https://t.me/{}>{}</a>, ɪ ᴀᴍ ᴀᴜᴛᴏꜰɪʟᴛᴇʀ + ᴍᴀɴᴜᴇʟ ꜰɪʟᴛᴇʀ ʙᴏᴛ. ɪ ᴡɪʟʟ ɢɪᴠᴇ ᴍᴏᴠɪᴇꜱ ɪɴ yᴏᴜʀ ɢʀᴏᴜᴩ ᴀɴᴅ ᴍy ᴩᴍ!\n\nᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙy:\n<a href=https://t.me/xovo_efx><b>xᴏᴠᴏ</b></a>"""
 
     HELP_TXT = """𝙷𝙴𝚈 {}
 
